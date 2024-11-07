@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modified version</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/f19c5d5657.js" crossorigin="anonymous"></script>
+
+    <!-- ----bootstrap---- -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"> 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</head>
+<style>
+    .card{
+        transition: 0.6s;
+        cursor: pointer;
+        box-shadow: 0px 0px 6px -4px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+    .card:hover{
+        box-shadow: 0px 0px 51px -36px rgb(58, 57, 57);
+        transform: translateY(-7px);
+    }
+</style>
+
+<body>
+    <!-- header section starts -->
+    <header>
+        <a href="#" class="logo">Shope<span style="color: orange;">Kart.</span></a>
+        <input type="text" class="form-control" id="myinput" placeholder="Search here..." style="width: 45%; height: 4rem; font-size: 1.6rem; border-radius: 5rem; padding-left: 2rem; outline: none;">
+
+        <div class="icons">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <div id="theme-toggler" class="fas fa-moon"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <a href="user.html" class="fas fa-user"></a>
+
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- navbar section starts -->
+    <nav class="navbar">
+
+        <div class="user">
+            <img src="my picture.jpg" alt="">
+            <h3>Deeksha Sonkusare</h3>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#featured">Featured</a>
+            <a href="#deal">Deal</a>
+            <a href="#review">Review</a>
+        </div>
+        <div id="close" class="fas fa-times"></div>
+    </nav>
+    <!-- navbar section ends -->
+
+    <!-- Home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <span>Special Offer</span>
+            <h3>sale upto 50% off</h3>
+            <a href="" class="buttons">Shop Now</a>
+        </div>
+
+        <div class="image">
+            <img src="men.png" alt="">
+        </div>
+    </section>
+    <!-- Home section ends  --> 
+
+    <!-- category section starts  -->
+    <section class="category">
+        <h1 class="heading"> shop by <span>category</span> </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="woman4.png" alt="">
+                <div class="content">
+                    <span>upto 50% off</span>
+                    <h3>for womans</h3>
+                    <a href="womensection.html" class="buttons">Shop now</a>
+                </div>
+            </div>   
+            
+            <div class="box">
+                <img src="men1.png" alt="">
+                <div class="content">
+                    <span>upto 50% off</span>
+                    <h3>for mans</h3>
+                    <a href="mensection.html" class="buttons">Shop now</a>
+                </div>
+            </div>  
+            
+        </div>
+    </section>
+    <!-- category section ends  -->
+
+
+    <!-- Scroll product section starts  -->
+    <section class="products" id="produts">
+
+        <h1 class="heading" style="margin-top: 1.4rem;"> Scroll latest <span>products</span> </h1>
+
+        <div class="swiper-container product-slider gap">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="imgf13.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 191 reviews )</span>
+                            </div>
+                            <h3>Men's clothing</h3>
+                            <p>Printed Men Casual Shirts</p>
+                            <div class="price">$302 <span>$310</span></div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="imgf39.png" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 450 reviews )</span>
+                            </div>
+                            <h3>Women's heels</h3>
+                            <p>Shoetopia Wide Fit Ankle Strap Block Heels</p>
+                            <div class="price">$590 <span>$600</span> <h6 style="color: green; margin-left: 8.8rem; margin-top: -1.1rem">10% off</h6> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img68.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 250 reviews )</span>
+                            </div>
+                            <h3>Wrist Watch</h3>
+                            <p>New Skylark Prizam Couple Dial Stainless Steel Chrome Plated Analog Watch</p>
+                            <div class="price">$550 <span>$580</span></div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img77.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 902 reviews )</span>
+                            </div>
+                            <h3>Women's Shirts</h3>
+                            <p>Trendy Sensational White Color Shirts</p>
+                            <div class="price">$293 <span>$307</span> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src= "img56.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 190 reviews )</span>
+                            </div>
+                            <h3>Oxidised jwellery</h3>
+                            <p>Beautiful oxidised earrings and ring</p>
+                            <div class="price">$260 <span>$271</span></div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img36.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 720 reviews )</span>
+                            </div>
+                            <h3>Men's Shoes</h3>
+                            <p>Bersache Men's Multicolor Casual Sneakers Shoes</p>
+                            <div class="price">$990 <span>$1000</span> <h6 style="color: green; margin-left: 9.5rem; margin-top: -1.1rem">6% off</h6> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img93.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 320 reviews )</span>
+                            </div>
+                            <h3>Women's Top</h3>
+                            <p>Trendy Designer Women Top</p>
+                            <div class="price">$268<span></span> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img33.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 100 reviews )</span>
+                            </div>
+                            <h3>Sunglasses</h3>
+                            <p>New Jiebo Tony Stark Spiderman Sunglasses</p>
+                            <div class="price">$170 <span>$190</span> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img13.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 100 reviews )</span>
+                            </div>
+                            <h3>Ring Set</h3>
+                            <p>Yu Fashions Pearl Infinity Cross Ring Set</p>
+                            <div class="price">$190 <span>$199</span> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img90.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 650 reviews )</span>
+                            </div>
+                            <h3>Men's Kurtas</h3>
+                            <p>Fancy Check Men's Kurtas</p>
+                            <div class="price">$374 <span>$389</span> <h6 style="color: green; margin-left: 10.3rem; margin-top: -1.1rem">18% off</h6> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img32.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 210 reviews )</span>
+                            </div>
+                            <h3>Sling Bags</h3>
+                            <p>Sytlish teal PU Slingbag</p>
+                            <div class="price">$541 <span>$550</span> <h6 style="color: green; margin-left: 10.3rem; margin-top: -1.1rem">21% off</h6> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img83.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 450 reviews )</span>
+                            </div>
+                            <h3>Cargo Pants</h3>
+                            <p>TINA COLLECTION 2 Box Pocket Cargo Pants For Girls & Womens</p>
+                            <div class="price">$255 <span>$276</span> <h6 style="color: green; margin-left: 10.3rem; margin-top: -1.1rem">8% off</h6> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img79.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 170 reviews )</span>
+                            </div>
+                            <h3>Hair Clips</h3>
+                            <p>Hair Clips For Girls & Women Pack of 6</p>
+                            <div class="price">$107 <span>$109</span> <h6 style="color: green; margin-left: 10.3rem; margin-top: -1.1rem">2% off</h6> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img80.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 601 reviews )</span>
+                            </div>
+                            <h3>Sweatshirts For Men's</h3>
+                            <p>BULLMEER Men's Graphic Pullovers Blue Sweatshirts</p>
+                            <div class="price">$564 <span>$1999</span> <h6 style="color: green; margin-left: 10.9rem; margin-top: -1.1rem">10% off</h6> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img91.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 307 reviews )</span>
+                            </div>
+                            <h3>Earrings</h3>
+                            <p>New Pearl Style Green Color Earrings</p>
+                            <div class="price">$371 <span>$394</span> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img85.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 350 reviews )</span>
+                            </div>
+                            <h3>Plant Stand</h3>
+                            <p>6 Tier 7 Potted Plant Stand Multiple Flower Pot Holder Shelves</p>
+                            <div class="price">$933 <span>$971</span> <h6 style="color: green; margin-left: 10.3rem; margin-top: -1.1rem">4% off</h6> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="img87.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>( 1002 reviews )</span>
+                            </div>
+                            <h3>Lehenga</h3>
+                            <p>Designer Lehenga Choli with Inner & Heavy Embroidery Work</p>
+                            <div class="price">$1089 <span>$2000</span> </div>
+                            <a href="cart.html" class="buttons">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+    </section>
+    <!-- Scroll product section starts  -->
+
+
+    <!-- product section starts  -->
+    <section class="products1" id="products1">
+        <h1 class="heading" style="margin-top: 1.4rem;"> latest <span>products</span> </h1>
+        <div class="container1">
+            <h3 class="text-danger mt-5 text-center" id="para" style="display: none;">Not Found</h3>
+            <div class="row mt-3" id="card">
+                <!-- here searching product is there -->
+            </div>
+        </div>
+    </section>
+    <!-- product section ends  -->
+
+    <!-- featured section starts  -->
+    <section class="featured" id="featured">
+        <h1 class="heading" style="margin-top: 1.4rem;"> <span>featured</span> products </h1>
+
+        <div class="box-container">
+
+            <!-- image 1 -->
+            <div class="box">  
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf4.png" class="small-image-1" alt="">
+                        <img src="imgf1.png" class="small-image-1" alt="">
+                        <img src="imgf2.png" class="small-image-1" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf3.png" class="big-image-1" alt="" height="365rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Short Kurti</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 250 reviews )</span>
+                    </div>
+                    <p>Women Self Design Rayon Short Top</p>
+                    <div class="price">$256 <span>$272</span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+            <!-- image 2 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf22.png" class="small-image-2" alt="">
+                        <img src="imgf24.png" class="small-image-2" alt="">
+                        <img src="imgf23.png" class="small-image-2" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf24.png" class="big-image-2" alt="" height="364rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Men's Jeans</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 108 reviews )</span>
+                    </div>
+                    <p>Regular Black Stylish Jeans For Men</p>
+                    <div class="price">$403 <span>$410</span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+            <!-- image 3 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf38.png" class="small-image-3" alt="">
+                        <img src="imgf37.png" class="small-image-3" alt="">
+                        <img src="imgf36.png" class="small-image-3" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf36.png" class="big-image-3" alt="" height="364rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Women's Juttis</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 250 reviews )</span>
+                    </div>
+                    <p>Shoetopia Women White Bellies</p>
+                    <div class="price">$478 <span>529</span> <h6 style="color: green; margin-left: 10.3rem; margin-top: -1.5rem; font-size: 17px; font-weight: bold;">10% off</h6> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+            <!-- image 4 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf17.png" class="small-image-4" alt="">
+                        <img src="imgf21.png" class="small-image-4" alt="">
+                        <img src="imgf20.png" class="small-image-4" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf21.png" class="big-image-4" alt="" height="365rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Top</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 250 reviews )</span>
+                    </div>
+                    <p>Pretty Feminine Women Top</p>
+                    <div class="price">$244 <span></span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+            <!-- image 5 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf15.png" class="small-image-5" alt="">
+                        <img src="imgf16.png" class="small-image-5" alt="">
+                        <img src="imgf14.png" class="small-image-5" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf13.png" class="big-image-5" alt="" height="364rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Men's Shirt</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 191 reviews )</span>
+                    </div>
+                    <p>Printed Men Casual Shirts</p>
+                    <div class="price">$302 <span></span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+            <!-- image 6 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf7.png" class="small-image-6" alt="">
+                        <img src="imgf8.png" class="small-image-6" alt="">
+                        <img src="imgf6.png" class="small-image-6" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf5.png" class="big-image-6" alt="" height="363rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Short Kurti</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 6307 reviews )</span>
+                    </div>
+                    <p>Classy Ravishing Women Top</p>
+                    <div class="price">$297 <span>$320</span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+            <!-- image 7 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf11.png" class="small-image-7" alt="">
+                        <img src="imgf10.png" class="small-image-7" alt="">
+                        <img src="imgf12.png" class="small-image-7" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf9.png" class="big-image-7" alt="" height="365rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Men's Shirt</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 790 reviews )</span>
+                    </div>
+                    <p>Raraya Black Slim Fit Shirt For Men</p>
+                    <div class="price">$990 <span>$1000</span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+            <!-- image 8 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf39.png" class="small-image-8" alt="">
+                        <img src="imgf40.png" class="small-image-8" alt="">
+                        <img src="imgf41.png" class="small-image-8" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf41.png" class="big-image-8" alt="" height="365rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Women's Heels</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 450 reviews )</span>
+                    </div>
+                    <p>Shoetopia Wide Fit Ankle Strap Block Heels</p>
+                    <div class="price">$550 <span>$600</span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+            <!-- image 9 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf25.png" class="small-image-9" alt="">
+                        <img src="imgf26.png" class="small-image-9" alt="">
+                        <img src="imgf27.png" class="small-image-9" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf28.png" class="big-image-9" alt="" height="365rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Men's T-Shirt</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 220 reviews )</span>
+                    </div>
+                    <p>Vebnor Premium Men and Boy T-Shirt</p>
+                    <div class="price">$248 <span>$259</span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+            <!-- image 10 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf43.jpg" class="small-image-10" alt="">
+                        <img src="imgf44.jpg" class="small-image-10" alt="">
+                        <img src="imgf45.jpg" class="small-image-10" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf42.jpg" class="big-image-10" alt="" height="365rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Women's Suit</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 405 reviews )</span>
+                    </div>
+                    <p>Purple Alia Cut Suit</p>
+                    <div class="price">$686 <span>$696</span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+            <!-- image 11 -->
+            <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf47.jpg" class="small-image-11" alt="">
+                        <img src="imgf48.jpg" class="small-image-11" alt="">
+                        <img src="imgf49.jpg" class="small-image-11" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf46.jpg" class="big-image-11" alt="" height="365rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Sweatshirts For Men's</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 600 reviews )</span>
+                    </div>
+                    <p>Men's Round Neck Stylish Sweatshirt | Pullover</p>
+                    <div class="price">$599 <span></span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+             <!-- image 12 -->
+             <div class="box">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="imgf51.jpg" class="small-image-12" alt="">
+                        <img src="imgf52.jpg" class="small-image-12" alt="">
+                        <img src="imgf53.jpg" class="small-image-12" alt="">
+                    </div>
+                    <div class="big-image">
+                        <img src="imgf50.jpg" class="big-image-12" alt="" height="365rem">
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Kurtis For Women</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>( 100 reviews )</span>
+                    </div>
+                    <p>Aalisha Fashionable A-line Kurti for Women</p>
+                    <div class="price">$299 <span>$310</span> </div>
+                    <a href="cart.html" class="buttons">Add to cart</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- featured section ends  -->
+
+    <!-- deal section starts  -->
+    <section class="deal" id="deal">
+
+        <h1 class="heading"> special <span>deal</span> </h1>
+
+        <div class="row">
+
+            <div class="content">
+                <span class="discount">Upto 50% off</span>
+                <h3 class="text">Deal of the day</h3>
+                <div class="count-down">
+                    <div class="box">
+                        <h3 id="days">00</h3>
+                        <span>days</span>
+                    </div>
+
+                    <div class="box">
+                        <h3 id="hours">00</h3>
+                        <span>hours</span>
+                    </div>
+                    
+                    <div class="box">
+                        <h3 id="minutes">00</h3>
+                        <span>minutes</span>
+                    </div>
+                    
+                    <div class="box">
+                        <h3 id="seconds">00</h3>
+                        <span>seconds</span>
+                    </div>
+                </div>
+                <a href="#" class="buttons">Shop now</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- deal section ends  -->
+
+    <!-- footer section starts  -->
+    <div class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Featured</a>
+                <a href="#">Deal</a>
+            </div>
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#">My account</a>
+                <a href="#">My favourite</a>
+                <a href="#">My order</a>
+                <a href="#">My cart</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Us</h3>
+                <p> <i class="fas fa-map-marker-alt" style="color: white; font-size: 15px;"></i> Jabalpur, Madhya Pradesh. </p>
+                <p> <i class="fas fa-envelope" style="color: white; font-size: 15px;"></i> example@gmail.com </p>
+                <p> <i class="fas fa-phone" style="color: white; font-size: 15px;"></i> +123-456-7890 </p>
+                <img src="" alt=""> 
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <i class="fa-brands fa-facebook" style="color: white; letter-spacing: 13px;
+                font-size: 21px;"></i>
+                <i class="fa-brands fa-instagram" style="color: white; letter-spacing: 13px;
+                font-size: 21px;"></i> 
+                <i class="fa-brands fa-github" style="color: white; letter-spacing: 13px;
+                 font-size: 21px;"></i>
+                <i class="fa-brands fa-linkedin" style="color: white; font-size: 21px;"></i>
+            </div>
+
+        </div>
+
+        <div class="credit">Created by <a href="#">Deeksha Sonkusare <i class="fas fa-heart">.</i> </a> All rights reserved.</div>
+    
+    </div>
+    <!-- footer section ends  -->
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+<script src="script2.js"></script>
+<script src="script3.js"></script>
+
+</body>
+</html>

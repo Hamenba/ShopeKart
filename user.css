@@ -1,0 +1,75 @@
+.user_form{
+    background-color: white;
+    width: 35rem;
+    height: 44rem;
+    margin-top: -28rem;
+    margin-left: 45rem;
+    border-radius: 2.5rem;
+    box-shadow:  2rem 2rem 5rem rgb(228, 213, 213);
+    border: 1px solid white;
+}
+
+.user_form1{
+    background-color: white;
+    width: 35rem;
+    height: 60rem;
+    margin-top: -28rem;
+    margin-left: 45rem;
+    border-radius: 2.5rem;
+    box-shadow:  2rem 2rem 5rem rgb(228, 213, 213);
+}
+
+.welcome_heading{
+    font-size: 1.9rem;
+    color: rgb(214, 21, 214);
+    padding-top: 3rem;
+    margin-left: 2rem;
+    font-weight: bolder;
+}
+
+.info{
+    font-size: 13.2px;
+    color: black;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.picture{
+    height: 12rem;
+    width: 30rem;
+}
+
+.social_heading1{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: rgb(147, 14, 147);
+    text-align: center;
+}
+
+.info2{
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.signup{
+    background-color: rgb(148, 29, 208);
+    color: white;
+    font-size: 1.4rem;
+    width: 14rem;
+    height: 3rem;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.info1{
+    font-size: 14px;
+    color: black;
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+}
